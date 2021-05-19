@@ -26,7 +26,7 @@ public static class MyCryptoClass
 	}
 	/***
      * @version 1.0 aes-128-gcm 加密
-     * @params content 为加密信息 secretKey 为32位的16进制key
+     * @params plainData 为加密信息 key 为32位的16进制key
      * @return 返回base64编码
      **/
 	public static String encryptByAES128Gcm(String key, String plainData)
